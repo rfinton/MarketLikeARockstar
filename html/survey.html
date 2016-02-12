@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Market like a rockstar</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/main.css" />
+    </head>
+
+    <body>
+	<div id="surveyPage" class="perimeter">
+
+		<form id="form2" method="post" onsubmit="javascript:return false;">
+
+				<fieldset id="survey"><legend>Please complete all fields</legend>
+				
+					<div id="row1">
+					
+						First name: <input type="text" name="firstname" value="##firstname##"><br>
+						Last name:<input type="text" name="lastname" value="##lastname##"><br>
+						Company: <input type="text" name="company" value="##company##"><br>
+						Email: <input type="text" name="email" value="##email##"><br>
+						Phone: <input type="text" name="phone" value="##phone##"><br>
+						
+						Who is your favorite rockband? <input type="text" name="favoriteBand" value="##favoriteBand##"><br>
+						
+						What band member do you want to be?
+						<select name="bandmember">
+							<option value="drums">drums</option>
+							<option value="bass">bass</option>
+							<option value="lead guitar">lead guitar</option>
+							<option value="lead vocals">lead vocals</option>
+						</select>
+					
+					</div>
+
+					<fieldset id="challenge">
+						What marketing challenges keep you up at night. (optional)<br>
+						<textarea name="marketChallenge" rows="10" cols="30"></textarea>
+					</fieldset>
+					
+					<div id="form2submitBtn" class="submitBtn">
+						<input type="submit" value="Complete Registration" onclick="location.assign('thankyou.html')">
+					</div>
+				
+				</fieldset>
+				
+				<div>
+					<button id="rfbtn" type="button" onclick='location.assign("referFriend.html")'>Refer a friend</button>
+				</div>
+			
+		</form>
+		
+	</div>
+</body>
+
+</html>
