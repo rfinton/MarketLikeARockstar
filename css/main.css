@@ -1,0 +1,249 @@
+/* -- TAG CSS -- */
+* {
+	margin:0;
+	padding:0;
+	font-family:helvetica;
+	font-weight:bold;
+	color:white;
+}
+
+h1 {
+	text-align:center;
+}
+
+body {
+	background-color:black;
+}
+
+input, select, option {
+	margin:4px;
+	color:black;
+}
+
+fieldset {
+	color:#70bc1f;
+}
+
+legend {
+	margin-left:30px;
+}
+
+button {
+	padding:10px 20px;
+	font-weight:bold;
+	color:black;
+	margin:4px;
+	-webkit-appearance:none;
+	background-color:#CDCDCD;
+}
+
+
+/* -- CLASS CSS -- */
+
+.perimeter {
+	position:relative; 
+	width:1024px;
+	height:900px;
+	margin:auto;
+}
+
+.submitBtn input {
+	padding:10px 20px;
+	font-weight:bold;
+	color:black;
+	-webkit-appearance:none;
+	background-color:#CDCDCD;
+}
+
+.banner {
+	position:relative;
+	width:1024px;
+	height:250px;
+}
+
+.logo {
+	height:50px;
+	float:left;
+}
+
+.guestWrapper {
+	clear:both;
+	margin:0 0 0 12px;
+}
+
+.guest {
+	float:left;
+	margin-left:10px;
+	margin-bottom:10px;
+}
+
+.scrollcontent {
+	position:absolute;
+	left:1024px;
+	top:12px;
+	color:black;
+	width:800px;
+	height:44px;
+}
+
+
+/* -- ID CSS -- */
+#form1 {
+	position:absolute;
+	bottom:20px;
+	right:20px;
+}
+
+#form1 input, #form1 div {
+	float:left;
+}
+
+#form2 {
+	position:absolute;
+	top:50px;
+	left:0px;
+}
+
+#homeLeftCol {
+	width:400px;
+	display:inline-block;
+	margin:20px 0 0 0;
+}
+
+#homeLeftCol p {
+	width:550px;
+	font-size:120%;
+	padding: 30px 60px 0 0;
+}
+
+#homeLeftCol img {
+	width:610px;
+}
+
+#homeRightCol {
+	float:right;
+}
+
+#surveyPage {
+	background-image:url("../images/bg2.jpg");
+	background-size:cover;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg2.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg2.jpg', sizingMethod='scale')";
+}
+
+#survey {
+	width:498px;
+   border:none;
+}
+
+#shirtsize, #challenge {
+	margin:10px;
+	padding:10px;
+}
+
+#challenge textarea {
+	height:114px;
+	width:369px;
+	color:black;
+}
+
+#row1 {
+	margin-left:20px;
+	color:#70bc1f;
+}
+
+#form2submitBtn {
+	text-align:center;
+}
+
+#scrollbar {
+	position:relative;
+	width:1024px;
+	height:45px;
+	background-color:#E6E6E6;
+	font-weight:normal;
+	overflow:hidden;
+}
+
+#bye {
+	padding-top:100px;
+	font-size:120%;
+}
+
+#name {
+	font-size:140%;
+}
+
+#rf {
+	padding-top: 120px;
+}
+
+#rfbtn {
+	margin-left:179px;
+	padding:10px 20px;
+	font-weight:bold;
+	color:black;
+}
+
+/* -- for iphone 5 -- */
+@media screen and (max-device-width: 568px)
+{
+	button {
+		padding:10px 20px;
+		font-weight:bold;
+		color:black;
+		margin:4px;
+		-webkit-appearance:none;
+		background-color:#CDCDCD;
+	}
+	
+	.submitBtn input {
+		padding:10px 20px;
+		font-weight:bold;
+		color:black;
+		-webkit-appearance:none;
+		background-color:#CDCDCD;
+	}
+}
+
+/* -- for iphone 4 -- */
+@media screen and (max-device-width: 480px)
+{
+	button {
+		padding:10px 20px;
+		font-weight:bold;
+		color:black;
+		margin:4px;
+		-webkit-appearance:none;
+		background-color:#CDCDCD;
+	}
+	
+	.submitBtn input {
+		padding:10px 20px;
+		font-weight:bold;
+		color:black;
+		-webkit-appearance:none;
+		background-color:#CDCDCD;
+	}
+}
+
+/* -- for ipad -- */
+@media screen and (max-device-width: 1024px)
+{
+	button {
+		padding:10px 20px;
+		font-weight:bold;
+		color:black;
+		margin:4px;
+		-webkit-appearance:none;
+		background-color:#CDCDCD;
+	}
+	
+	.submitBtn input {
+		padding:10px 20px;
+		font-weight:bold;
+		color:black;
+		-webkit-appearance:none;
+		background-color:#CDCDCD;
+	}
+}
